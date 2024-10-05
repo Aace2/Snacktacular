@@ -12,7 +12,7 @@
 		03F81D432CB03F8B0006398B /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 03F81D422CB03F8B0006398B /* FirebaseStorage */; };
 		03F81D4B2CB043350006398B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F81D442CB043350006398B /* Preview Assets.xcassets */; };
 		03F81D4C2CB043350006398B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F81D462CB043350006398B /* Assets.xcassets */; };
-		03F81D4E2CB043350006398B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F81D472CB043350006398B /* ContentView.swift */; };
+		03F81D4E2CB043350006398B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F81D472CB043350006398B /* LoginView.swift */; };
 		03F81D4F2CB043350006398B /* SnacktacularApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F81D492CB043350006398B /* SnacktacularApp.swift */; };
 		03F81D512CB0435A0006398B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03F81D502CB0435A0006398B /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
@@ -21,7 +21,7 @@
 		034FB7EA2CB0355A002400E6 /* Snacktacular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snacktacular.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F81D442CB043350006398B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		03F81D462CB043350006398B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		03F81D472CB043350006398B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		03F81D472CB043350006398B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		03F81D482CB043350006398B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03F81D492CB043350006398B /* SnacktacularApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnacktacularApp.swift; sourceTree = "<group>"; };
 		03F81D502CB0435A0006398B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 				03F81D452CB043350006398B /* Preview Content */,
 				03F81D462CB043350006398B /* Assets.xcassets */,
 				03F81D502CB0435A0006398B /* GoogleService-Info.plist */,
-				03F81D472CB043350006398B /* ContentView.swift */,
+				03F81D472CB043350006398B /* LoginView.swift */,
 				03F81D482CB043350006398B /* Info.plist */,
 				03F81D492CB043350006398B /* SnacktacularApp.swift */,
 			);
@@ -158,7 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03F81D4E2CB043350006398B /* ContentView.swift in Sources */,
+				03F81D4E2CB043350006398B /* LoginView.swift in Sources */,
 				03F81D4F2CB043350006398B /* SnacktacularApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
